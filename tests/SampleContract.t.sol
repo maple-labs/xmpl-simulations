@@ -43,6 +43,15 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
             minAmountOut:  0,
             maxPrice:      type(uint256).max
         });
+
+        // Step 1: Deploy xMPL
+        // Step 2 (done): Deposit 1m into treasury
+        // Step 3 (done): Convert 1m into MPL
+        // Step 4: Deposit initial amount of MPL
+        // Step 5: Transfer and update vesting schedule
+        // Step 6: Deposit amounts of MPL from many users (>10)
+        // Step 7: Warp 1 month
+        // Step 8: Assertions
     }
 
 }
