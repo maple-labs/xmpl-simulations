@@ -15,6 +15,11 @@ import { IBPoolLike, IMapleTreasuryLike } from "../contracts/Interfaces.sol";
 
 contract xMPLSimulation is AddressRegistry, TestUtils {
 
+    uint256 internal constant DEPOSIT_SEED = 1;
+    uint256 internal constant WARP_SEED    = 2;
+
+    uint256 internal _vestingStart;
+
     IBPoolLike         internal _balancerPool = IBPoolLike(BALANCER_POOL);
     IERC20             internal _mpl          = IERC20(MPL);
     IERC20             internal _usdc         = IERC20(USDC);
@@ -23,15 +28,11 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
     xMPL      internal _xmpl;
     xMPLOwner internal _owner;
 
-    uint256 internal constant DEPOSIT_SEED = 1;
-    uint256 internal constant WARP_SEED    = 2;
-
-    uint256 internal _start;
-
     function setUp() public virtual {
         _owner  = new xMPLOwner();
         _xmpl   = new xMPL("xMPL", "xMPL", address(_owner), address(_mpl), 1e30);
-        _start  = block.timestamp;
+
+        _vestingStart = block.timestamp;
     }
 
     function test_deposits() external {
@@ -45,16 +46,25 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
         _mintAndDepositMpl(address(new Staker()), 1);
 
         // MPL is transferred to the xMPL contract and vesting starts.
-        uint256 issuanceRate = _issueRewards(mplRewards, 30 days);
+        uint256 issuanceRate = _issueRewards(mplRewards, 365 days);
 
-        // Store the current state.
+        // Define the expected state.
         uint256 mplBalance  = 1 + mplRewards;
         uint256 xmplBalance = 1;
-        uint256 timeElapsed = 0;
         uint256 freeAssets  = 1;
 
+        assertEq(_mpl.balanceOf(address(_xmpl)), mplBalance);
+
+        assertEq(_xmpl.totalSupply(), xmplBalance);
+        assertEq(_xmpl.freeAssets(),  freeAssets);
+        assertEq(_xmpl.totalAssets(), freeAssets);
+
+        assertEq(_xmpl.issuanceRate(),        issuanceRate);
+        assertEq(_xmpl.lastUpdated(),         block.timestamp);
+        assertEq(_xmpl.vestingPeriodFinish(), _vestingStart + 365 days);
+
         // Users continously deposit their MPL into the xMPL contract.
-        for (uint256 i = 0; i < 25; i++) {
+        for (uint256 i = 0; i < 100; i++) {
             Staker staker = new Staker();
 
             uint256 mplDeposit = constrictToRange(_generateNumber(DEPOSIT_SEED, i), 0.01e18,   10_000e18);
@@ -64,10 +74,9 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
 
             uint256 xmplAmount = _mintAndDepositMpl(address(staker), mplDeposit);
 
-            // Update the expected current state.
+            // Update the expected state.
             mplBalance  += mplDeposit;
             xmplBalance += xmplAmount;
-            timeElapsed += warpTime;
             freeAssets  += mplDeposit + (issuanceRate * warpTime) / 1e30;
 
             assertEq(_mpl.balanceOf(address(staker)), 0);
@@ -78,13 +87,16 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
 
             assertEq(_xmpl.totalSupply(), xmplBalance);
             assertEq(_xmpl.freeAssets(),  freeAssets);
-            assertEq(_xmpl.totalAssets(), freeAssets);
+            assertEq(_xmpl.totalAssets(), freeAssets);  // Since no time has elapsed.
 
             assertEq(_xmpl.issuanceRate(),        issuanceRate);
             assertEq(_xmpl.lastUpdated(),         block.timestamp);
-            assertEq(_xmpl.vestingPeriodFinish(), _start + 30 days);            
+            assertEq(_xmpl.vestingPeriodFinish(), _vestingStart + 365 days);
         }
     }
+
+    // TODO: Check if user depositing after vesting schedule ends work properly.
+    // TODO: Check if multiple overlapping/spaced vesting schedule updates work properly.
 
     /*************************/
     /*** Utility Functions ***/
