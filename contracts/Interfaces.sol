@@ -4,14 +4,14 @@ pragma solidity ^0.8.7;
 interface IBPoolLike {
 
     function swapExactAmountIn(
-        address tokenIn,
-        uint256 tokenAmountIn,
-        address tokenOut,
-        uint256 minAmountOut,
-        uint256 maxPrice
+        address tokenIn_,
+        uint256 tokenAmountIn_,
+        address tokenOut_,
+        uint256 minAmountOut_,
+        uint256 maxPrice_
     )
         external
-        returns (uint tokenAmountOut, uint spotPriceAfter);
+        returns (uint256 tokenAmountOut_, uint256 spotPriceAfter_);
 }
 
 interface IMapleTreasuryLike {

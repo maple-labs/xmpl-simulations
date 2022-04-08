@@ -114,11 +114,11 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
 
         _usdc.approve(address(_balancerPool), usdcAmount_);
         ( mplAmount_, ) = _balancerPool.swapExactAmountIn({
-            tokenIn:       USDC,
-            tokenAmountIn: usdcAmount_,
-            tokenOut:      MPL,
-            minAmountOut:  0,
-            maxPrice:      type(uint256).max
+            tokenIn_:       USDC,
+            tokenAmountIn_: usdcAmount_,
+            tokenOut_:      MPL,
+            minAmountOut_:  0,
+            maxPrice_:      type(uint256).max
         });
 
         vm.stopPrank();
