@@ -146,4 +146,5 @@ contract xMPLSimulation is AddressRegistry, TestUtils {
     function _generateNumber(uint256 seed_, uint256 index_) internal pure returns (uint256 number_) {
         number_ = uint256(keccak256(abi.encodePacked(seed_, index_)));
     }
+
 }
