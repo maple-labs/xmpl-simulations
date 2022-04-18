@@ -1,0 +1,176 @@
+--------------
+Month 1
+--------------
+Exchange Rate: 17545
+Total Supply-: 855558
+Total Assets-: 1501109
+APY----------: 90
+
+--------------
+Month 2
+--------------
+Exchange Rate: 17563
+Total Supply-: 855558
+Total Assets-: 1502630
+APY----------: 123
+
+--------------
+Month 3
+--------------
+Exchange Rate: 17585
+Total Supply-: 855558
+Total Assets-: 1504521
+APY----------: 152
+
+--------------
+Month 4
+--------------
+Exchange Rate: 17611
+Total Supply-: 855558
+Total Assets-: 1506751
+APY----------: 180
+
+--------------
+Month 5
+--------------
+Exchange Rate: 17641
+Total Supply-: 855558
+Total Assets-: 1509293
+APY----------: 204
+
+--------------
+Month 6
+--------------
+Exchange Rate: 17674
+Total Supply-: 855558
+Total Assets-: 1512129
+APY----------: 228
+
+--------------
+Month 7
+--------------
+Exchange Rate: 17710
+Total Supply-: 855558
+Total Assets-: 1515243
+APY----------: 250
+
+--------------
+Month 8
+--------------
+Exchange Rate: 17750
+Total Supply-: 855558
+Total Assets-: 1518626
+APY----------: 270
+
+--------------
+Month 9
+--------------
+Exchange Rate: 17792
+Total Supply-: 855558
+Total Assets-: 1522269
+APY----------: 291
+
+--------------
+Month 10
+--------------
+Exchange Rate: 17838
+Total Supply-: 855558
+Total Assets-: 1526169
+APY----------: 310
+
+--------------
+Month 11
+--------------
+Exchange Rate: 17886
+Total Supply-: 855558
+Total Assets-: 1530323
+APY----------: 330
+
+--------------
+Month 12
+--------------
+Exchange Rate: 17938
+Total Supply-: 855558
+Total Assets-: 1534734
+APY----------: 349
+
+--------------
+Month 13
+--------------
+Exchange Rate: 17992
+Total Supply-: 855558
+Total Assets-: 1539402
+APY----------: 368
+
+--------------
+Month 14
+--------------
+Exchange Rate: 18050
+Total Supply-: 855558
+Total Assets-: 1544333
+APY----------: 388
+
+--------------
+Month 15
+--------------
+Exchange Rate: 18111
+Total Supply-: 855558
+Total Assets-: 1549532
+APY----------: 408
+
+--------------
+Month 16
+--------------
+Exchange Rate: 18175
+Total Supply-: 855558
+Total Assets-: 1555007
+APY----------: 428
+
+--------------
+Month 17
+--------------
+Exchange Rate: 18242
+Total Supply-: 855558
+Total Assets-: 1560765
+APY----------: 448
+
+--------------
+Month 18
+--------------
+Exchange Rate: 18313
+Total Supply-: 855558
+Total Assets-: 1566817
+APY----------: 469
+
+--------------
+Month 19
+--------------
+Exchange Rate: 18387
+Total Supply-: 855558
+Total Assets-: 1573173
+APY----------: 491
+
+--------------
+Month 20
+--------------
+Exchange Rate: 18465
+Total Supply-: 855558
+Total Assets-: 1579845
+APY----------: 513
+
+--------------
+Month 21
+--------------
+Exchange Rate: 18547
+Total Supply-: 855558
+Total Assets-: 1586846
+APY----------: 536
+
+--------------
+Month 22
+--------------
+Exchange Rate: 18633
+Total Supply-: 855558
+Total Assets-: 1594190
+APY----------: 560
+

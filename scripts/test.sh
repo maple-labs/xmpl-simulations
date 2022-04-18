@@ -14,7 +14,7 @@ echo Using profile: $FOUNDRY_PROFILE
 
 if [ -z "$test" ];
 then
-    forge test --match-path "$PWD/tests/*" --rpc-url "$ETH_RPC_URL"
+    forge test --match-path "tests/*" --rpc-url "$ETH_RPC_URL" --ffi
 else
-    forge test --match "$test" --rpc-url "$ETH_RPC_URL"
+    forge test --match "$test" --rpc-url "$ETH_RPC_URL" --ffi
 fi
