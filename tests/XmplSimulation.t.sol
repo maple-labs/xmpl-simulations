@@ -157,14 +157,7 @@ contract xMPLSimulationBase is AddressRegistry, TestUtils {
     function _writeToFile(string memory key, uint256 value, string memory filePath) internal {
         string memory line = string(abi.encodePacked(key, _convertUintToString(value)));
 
-        string[] memory inputs = new string[](5);
-        inputs[0] = "scripts/write-to-file.sh";
-        inputs[1] = "-f";
-        inputs[2] = filePath;
-        inputs[3] = "-i";
-        inputs[4] = line;
-
-        vm.ffi(inputs);
+        _writeToFile(line, filePath);
     }
 
 }
@@ -197,8 +190,6 @@ contract xMPLSimulation1 is xMPLSimulationBase {
         _mintAndDepositMpl(address(staker1), 1e18);
 
         uint256 mplFromInitialFeeDeposit = initialFeeDeposit_ * 1e12 / 50e18;
-
-        emit log_named_uint("mplFromInitialFeeDeposit", mplFromInitialFeeDeposit);
 
         // Initial Fee Deposit + Month 1 fee revenue
         _mintMplAndDistributeRevenue(mplDistributions_[0] + mplFromInitialFeeDeposit, vestingPeriod_);
