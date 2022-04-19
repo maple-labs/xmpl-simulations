@@ -104,9 +104,21 @@ contract xMPLSimulationBase is AddressRegistry, TestUtils {
         erc20_mint(MPL, 0, account_, mplAmount_);
     }
 
-    function _mintMplAndDistributeRevenue(uint256 mplAmount_, uint256 vestingPeriod_) internal {
+    function _mintMplAndDistributeRevenueWithLogs(uint256 mplAmount_, uint256 vestingPeriod_, uint256 index_, string memory filePath_) internal {
         _mintMpl(GOVERNOR, mplAmount_);
         _distributeRevenue(mplAmount_, vestingPeriod_);
+
+        _writeToFile("--------------", filePath_);
+        _writeToFile("Month ", index_ + 1, filePath_);
+        _writeToFile("--------------", filePath_);
+
+        _writeToFile("Exchange Rate: ", _xmpl.convertToAssets(10_000),                                         filePath_);
+        _writeToFile("Total Supply-: ", _xmpl.totalSupply() / 1e18,                                            filePath_);
+        _writeToFile("Total Assets-: ", _xmpl.totalAssets() / 1e18,                                            filePath_);
+        _writeToFile("IssuanceRate-: ", _xmpl.issuanceRate() / 1e30,                                           filePath_);
+        _writeToFile("APY----------: ", _xmpl.issuanceRate() * 365 days * 10_000 / _xmpl.totalAssets() / 1e30, filePath_);
+
+        _writeToFile(" ", filePath_);
     }
 
     function _mintAndDepositMpl(address account_, uint256 mplAmount_) internal returns (uint256 xmplAmount_) {
@@ -189,10 +201,10 @@ contract xMPLSimulation1 is xMPLSimulationBase {
         // Stake initial amount of MPL (1 MPL) to seed contract
         _mintAndDepositMpl(address(staker1), 1e18);
 
-        uint256 mplFromInitialFeeDeposit = initialFeeDeposit_ * 1e12 / 50e18;
+        uint256 mplFromInitialFeeDeposit = initialFeeDeposit_ * 1e12 / 50;
 
         // Initial Fee Deposit + Month 1 fee revenue
-        _mintMplAndDistributeRevenue(mplDistributions_[0] + mplFromInitialFeeDeposit, vestingPeriod_);
+        _mintMplAndDistributeRevenueWithLogs(mplDistributions_[0] + mplFromInitialFeeDeposit, vestingPeriod_, 0, filePath);
 
         /************************/
         /*** Initial Deposits ***/
@@ -211,17 +223,9 @@ contract xMPLSimulation1 is xMPLSimulationBase {
         /********************************************/
 
         for (uint256 i = 1; i < mplDistributions_.length - 1; ++i) {
-            _mintMplAndDistributeRevenue(mplDistributions_[i], vestingPeriod_);
-            vm.warp(START + 30 days * i);
+            _mintMplAndDistributeRevenueWithLogs(mplDistributions_[i], vestingPeriod_, i, filePath);
 
-            _writeToFile("--------------", filePath);
-            _writeToFile("Month ", i, filePath);
-            _writeToFile("--------------", filePath);
-            _writeToFile("Exchange Rate: ", _xmpl.convertToAssets(10_000), filePath);
-            _writeToFile("Total Supply-: ", _xmpl.totalSupply() / 1e18, filePath);
-            _writeToFile("Total Assets-: ", _xmpl.totalAssets() / 1e18, filePath);
-            _writeToFile("APY----------: ", _xmpl.issuanceRate() * 365 days * 10_000 / _xmpl.totalAssets() / 1e30, filePath);
-            _writeToFile(" ", filePath);
+            vm.warp(START + 30 days * i);
         }
     }
 

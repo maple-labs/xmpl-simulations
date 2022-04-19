@@ -7,176 +7,207 @@ Initial Fee Deposit------: 1250000
 --------------
 Month 1
 --------------
-Exchange Rate: 25090
-Total Supply-: 877725
-Total Assets-: 2202219
-APY----------: 122
+Exchange Rate: 10000
+Total Supply-: 1
+Total Assets-: 1
+IssuanceRate-: 3633487654320987
+APY----------: 1145856666
 
 --------------
 Month 2
 --------------
-Exchange Rate: 25120
-Total Supply-: 877725
-Total Assets-: 2204891
-APY----------: 147
+Exchange Rate: 140805
+Total Supply-: 156244
+Total Assets-: 2200013
+IssuanceRate-: 4070334290695016
+APY----------: 583
 
 --------------
 Month 3
 --------------
-Exchange Rate: 25155
-Total Supply-: 877725
-Total Assets-: 2207920
-APY----------: 166
+Exchange Rate: 141479
+Total Supply-: 156244
+Total Assets-: 2210548
+IssuanceRate-: 3174802747737842
+APY----------: 452
 
 --------------
 Month 4
 --------------
-Exchange Rate: 25192
-Total Supply-: 877725
-Total Assets-: 2211246
-APY----------: 182
+Exchange Rate: 142006
+Total Supply-: 156244
+Total Assets-: 2218777
+IssuanceRate-: 2597759444993952
+APY----------: 369
 
 --------------
 Month 5
 --------------
-Exchange Rate: 25233
-Total Supply-: 877725
-Total Assets-: 2214832
-APY----------: 197
+Exchange Rate: 142437
+Total Supply-: 156244
+Total Assets-: 2225511
+IssuanceRate-: 2235954856333417
+APY----------: 316
 
 --------------
 Month 6
 --------------
-Exchange Rate: 25277
-Total Supply-: 877725
-Total Assets-: 2218657
-APY----------: 209
+Exchange Rate: 142808
+Total Supply-: 156244
+Total Assets-: 2231306
+IssuanceRate-: 2018800151135858
+APY----------: 285
 
 --------------
 Month 7
 --------------
-Exchange Rate: 25323
-Total Supply-: 877725
-Total Assets-: 2222710
-APY----------: 221
+Exchange Rate: 143143
+Total Supply-: 156244
+Total Assets-: 2236539
+IssuanceRate-: 1899236108987691
+APY----------: 267
 
 --------------
 Month 8
 --------------
-Exchange Rate: 25372
-Total Supply-: 877725
-Total Assets-: 2226986
-APY----------: 233
+Exchange Rate: 143458
+Total Supply-: 156244
+Total Assets-: 2241462
+IssuanceRate-: 1845889916279860
+APY----------: 259
 
 --------------
 Month 9
 --------------
-Exchange Rate: 25423
-Total Supply-: 877725
-Total Assets-: 2231485
-APY----------: 245
+Exchange Rate: 143764
+Total Supply-: 156244
+Total Assets-: 2246246
+IssuanceRate-: 1837846363939659
+APY----------: 258
 
 --------------
 Month 10
 --------------
-Exchange Rate: 25477
-Total Supply-: 877725
-Total Assets-: 2236213
-APY----------: 257
+Exchange Rate: 144069
+Total Supply-: 156244
+Total Assets-: 2251010
+IssuanceRate-: 1861419180898044
+APY----------: 260
 
 --------------
 Month 11
 --------------
-Exchange Rate: 25533
-Total Supply-: 877725
-Total Assets-: 2241174
-APY----------: 269
+Exchange Rate: 144378
+Total Supply-: 156244
+Total Assets-: 2255835
+IssuanceRate-: 1907484186442317
+APY----------: 266
 
 --------------
 Month 12
 --------------
-Exchange Rate: 25593
-Total Supply-: 877725
-Total Assets-: 2246378
-APY----------: 281
+Exchange Rate: 144694
+Total Supply-: 156244
+Total Assets-: 2260779
+IssuanceRate-: 1969958593430681
+APY----------: 274
 
 --------------
 Month 13
 --------------
-Exchange Rate: 25655
-Total Supply-: 877725
-Total Assets-: 2251834
-APY----------: 294
+Exchange Rate: 145021
+Total Supply-: 156244
+Total Assets-: 2265885
+IssuanceRate-: 2044787210435268
+APY----------: 284
 
 --------------
 Month 14
 --------------
-Exchange Rate: 25720
-Total Supply-: 877725
-Total Assets-: 2257552
-APY----------: 308
+Exchange Rate: 145360
+Total Supply-: 156244
+Total Assets-: 2271185
+IssuanceRate-: 2129523778150261
+APY----------: 295
 
 --------------
 Month 15
 --------------
-Exchange Rate: 25788
-Total Supply-: 877725
-Total Assets-: 2263544
-APY----------: 322
+Exchange Rate: 145714
+Total Supply-: 156244
+Total Assets-: 2276705
+IssuanceRate-: 2222537457038445
+APY----------: 307
 
 --------------
 Month 16
 --------------
-Exchange Rate: 25860
-Total Supply-: 877725
-Total Assets-: 2269822
-APY----------: 336
+Exchange Rate: 146082
+Total Supply-: 156244
+Total Assets-: 2282466
+IssuanceRate-: 2322741020741680
+APY----------: 320
 
 --------------
 Month 17
 --------------
-Exchange Rate: 25935
-Total Supply-: 877725
-Total Assets-: 2276400
-APY----------: 351
+Exchange Rate: 146468
+Total Supply-: 156244
+Total Assets-: 2288486
+IssuanceRate-: 2429538252510914
+APY----------: 334
 
 --------------
 Month 18
 --------------
-Exchange Rate: 26013
-Total Supply-: 877725
-Total Assets-: 2283292
-APY----------: 367
+Exchange Rate: 146871
+Total Supply-: 156244
+Total Assets-: 2294784
+IssuanceRate-: 2542788876159539
+APY----------: 349
 
 --------------
 Month 19
 --------------
-Exchange Rate: 26096
-Total Supply-: 877725
-Total Assets-: 2290512
-APY----------: 383
+Exchange Rate: 147292
+Total Supply-: 156244
+Total Assets-: 2301375
+IssuanceRate-: 2662142172583725
+APY----------: 364
 
 --------------
 Month 20
 --------------
-Exchange Rate: 26182
-Total Supply-: 877725
-Total Assets-: 2298077
-APY----------: 400
+Exchange Rate: 147734
+Total Supply-: 156244
+Total Assets-: 2308275
+IssuanceRate-: 2787750131516722
+APY----------: 380
 
 --------------
 Month 21
 --------------
-Exchange Rate: 26272
-Total Supply-: 877725
-Total Assets-: 2306002
-APY----------: 418
+Exchange Rate: 148197
+Total Supply-: 156244
+Total Assets-: 2315501
+IssuanceRate-: 2919842680270407
+APY----------: 397
 
 --------------
 Month 22
 --------------
-Exchange Rate: 26367
-Total Supply-: 877725
-Total Assets-: 2314304
-APY----------: 436
+Exchange Rate: 148681
+Total Supply-: 156244
+Total Assets-: 2323069
+IssuanceRate-: 3058444502896321
+APY----------: 415
+
+--------------
+Month 23
+--------------
+Exchange Rate: 149188
+Total Supply-: 156244
+Total Assets-: 2330997
+IssuanceRate-: 3203700656251868
+APY----------: 433
 
