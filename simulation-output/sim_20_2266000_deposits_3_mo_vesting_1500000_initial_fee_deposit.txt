@@ -1,3 +1,9 @@
+--------------------------
+Total MPL Deposits-------: 2266000
+Vesting Schedule (Months): 3
+Initial Fee Deposit------: 1500000
+--------------------------
+
 --------------
 Month 1
 --------------

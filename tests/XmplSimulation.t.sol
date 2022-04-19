@@ -288,6 +288,13 @@ contract xMPLSimulation1 is xMPLSimulationBase {
                     ));
 
                     _rmFile(filePath);
+                    _writeToFile("--------------------------",  filePath);
+                    _writeToFile("Total MPL Deposits-------: ", totalDeposits[i] / 1e18,     filePath);
+                    _writeToFile("Vesting Schedule (Months): ", vestingPeriods[j] / 30 days, filePath);
+                    _writeToFile("Initial Fee Deposit------: ", initialFeeDeposits[k] / 1e6, filePath);
+                    _writeToFile("--------------------------",  filePath);
+                    _writeToFile(" ", filePath);
+
                     _runSimulation(
                         mplDistributions,
                         totalDeposits[i],
