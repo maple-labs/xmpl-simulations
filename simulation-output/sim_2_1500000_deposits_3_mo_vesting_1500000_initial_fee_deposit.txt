@@ -7,207 +7,242 @@ Initial Fee Deposit------: 1500000
 --------------
 Month 1
 --------------
-Exchange Rate: 10000
-Total Supply-: 1
-Total Assets-: 1
-IssuanceRate-: 4276491769547325
-APY----------: 1348634444
+MPL Distributed: 3325400
+MPL Issued-----: 1108466
+Exchange Rate--: 10073
+Total Supply---: 150000000
+Total Assets---: 151108466
+IssuanceRate---: 4276491769547325
+APY------------: 892
 
 --------------
 Month 2
 --------------
-Exchange Rate: 163953
-Total Supply-: 91490
-Total Assets-: 1500015
-IssuanceRate-: 4713040718830970
-APY----------: 990
+MPL Distributed: 341000
+MPL Issued-----: 852644
+Exchange Rate--: 10130
+Total Supply---: 150000000
+Total Assets---: 151961111
+IssuanceRate---: 3289523319615912
+APY------------: 682
 
 --------------
 Month 3
 --------------
-Exchange Rate: 165287
-Total Supply-: 91490
-Total Assets-: 1512214
-IssuanceRate-: 3603571249100764
-APY----------: 751
+MPL Distributed: 357200
+MPL Issued-----: 687496
+Exchange Rate--: 10176
+Total Supply---: 150000000
+Total Assets---: 152648607
+IssuanceRate---: 2652377686328303
+APY------------: 547
 
 --------------
 Month 4
 --------------
-Exchange Rate: 166308
-Total Supply-: 91490
-Total Assets-: 1521555
-IssuanceRate-: 2883605112569233
-APY----------: 597
+MPL Distributed: 374200
+MPL Issued-----: 583064
+Exchange Rate--: 10215
+Total Supply---: 150000000
+Total Assets---: 153231671
+IssuanceRate---: 2249476070720926
+APY------------: 462
 
 --------------
 Month 5
 --------------
-Exchange Rate: 167124
-Total Supply-: 91490
-Total Assets-: 1529029
-IssuanceRate-: 2426518634716937
-APY----------: 500
+MPL Distributed: 392000
+MPL Issued-----: 519376
+Exchange Rate--: 10250
+Total Supply---: 150000000
+Total Assets---: 153751047
+IssuanceRate---: 2003765940151399
+APY------------: 410
 
 --------------
 Month 6
 --------------
-Exchange Rate: 167812
-Total Supply-: 91490
-Total Assets-: 1535318
-IssuanceRate-: 2145842670058205
-APY----------: 440
+MPL Distributed: 410700
+MPL Issued-----: 483150
+Exchange Rate--: 10282
+Total Supply---: 150000000
+Total Assets---: 154234198
+IssuanceRate---: 1864007540347846
+APY------------: 381
 
 --------------
 Month 7
 --------------
-Exchange Rate: 168420
-Total Supply-: 91490
-Total Assets-: 1540880
-IssuanceRate-: 1983931121602589
-APY----------: 406
+MPL Distributed: 430300
+MPL Issued-----: 465533
+Exchange Rate--: 10313
+Total Supply---: 150000000
+Total Assets---: 154699732
+IssuanceRate---: 1796041035129017
+APY------------: 366
 
 --------------
 Month 8
 --------------
-Exchange Rate: 168982
-Total Supply-: 91490
-Total Assets-: 1546023
-IssuanceRate-: 1902353258023125
-APY----------: 388
+MPL Distributed: 450800
+MPL Issued-----: 460622
+Exchange Rate--: 10344
+Total Supply---: 150000000
+Total Assets---: 155160354
+IssuanceRate---: 1777093200374077
+APY------------: 361
 
 --------------
 Month 9
 --------------
-Exchange Rate: 169521
-Total Supply-: 91490
-Total Assets-: 1550954
-IssuanceRate-: 1875488591768503
-APY----------: 381
+MPL Distributed: 472200
+MPL Issued-----: 464481
+Exchange Rate--: 10374
+Total Supply---: 150000000
+Total Assets---: 155624836
+IssuanceRate---: 1791981886669137
+APY------------: 363
 
 --------------
 Month 10
 --------------
-Exchange Rate: 170052
-Total Supply-: 91490
-Total Assets-: 1555815
-IssuanceRate-: 1886513999450607
-APY----------: 382
+MPL Distributed: 494700
+MPL Issued-----: 474554
+Exchange Rate--: 10406
+Total Supply---: 150000000
+Total Assets---: 156099391
+IssuanceRate---: 1830842862717696
+APY------------: 369
 
 --------------
 Month 11
 --------------
-Exchange Rate: 170587
-Total Supply-: 91490
-Total Assets-: 1560705
-IssuanceRate-: 1924214065477359
-APY----------: 388
+MPL Distributed: 518300
+MPL Issued-----: 489136
+Exchange Rate--: 10439
+Total Supply---: 150000000
+Total Assets---: 156588527
+IssuanceRate---: 1887099974322085
+APY------------: 380
 
 --------------
 Month 12
 --------------
-Exchange Rate: 171132
-Total Supply-: 91490
-Total Assets-: 1565692
-IssuanceRate-: 1981111846120708
-APY----------: 399
+MPL Distributed: 543000
+MPL Issued-----: 507090
+Exchange Rate--: 10473
+Total Supply---: 150000000
+Total Assets---: 157095618
+IssuanceRate---: 1956369118683859
+APY------------: 392
 
 --------------
 Month 13
 --------------
-Exchange Rate: 171693
-Total Supply-: 91490
-Total Assets-: 1570827
-IssuanceRate-: 2052222712228620
-APY----------: 412
+MPL Distributed: 568800
+MPL Issued-----: 527660
+Exchange Rate--: 10508
+Total Supply---: 150000000
+Total Assets---: 157623278
+IssuanceRate---: 2035727560604054
+APY------------: 407
 
 --------------
 Month 14
 --------------
-Exchange Rate: 172275
-Total Supply-: 91490
-Total Assets-: 1576147
-IssuanceRate-: 2134480779345829
-APY----------: 427
+MPL Distributed: 595900
+MPL Issued-----: 550407
+Exchange Rate--: 10544
+Total Supply---: 150000000
+Total Assets---: 158173685
+IssuanceRate---: 2123484011596118
+APY------------: 423
 
 --------------
 Month 15
 --------------
-Exchange Rate: 172879
-Total Supply-: 91490
-Total Assets-: 1581679
-IssuanceRate-: 2225842124502157
-APY----------: 443
+MPL Distributed: 624300
+MPL Issued-----: 575038
+Exchange Rate--: 10583
+Total Supply---: 150000000
+Total Assets---: 158748723
+IssuanceRate---: 2218510946002350
+APY------------: 440
 
 --------------
 Month 16
 --------------
-Exchange Rate: 173510
-Total Supply-: 91490
-Total Assets-: 1587449
-IssuanceRate-: 2324944132384154
-APY----------: 461
+MPL Distributed: 654000
+MPL Issued-----: 601358
+Exchange Rate--: 10623
+Total Supply---: 150000000
+Total Assets---: 159350082
+IssuanceRate---: 2320056680050949
+APY------------: 459
 
 --------------
 Month 17
 --------------
-Exchange Rate: 174169
-Total Supply-: 91490
-Total Assets-: 1593475
-IssuanceRate-: 2431006993605897
-APY----------: 481
+MPL Distributed: 685100
+MPL Issued-----: 629272
+Exchange Rate--: 10665
+Total Supply---: 150000000
+Total Assets---: 159979355
+IssuanceRate---: 2427748692050427
+APY------------: 478
 
 --------------
 Month 18
 --------------
-Exchange Rate: 174857
-Total Supply-: 91490
-Total Assets-: 1599776
-IssuanceRate-: 2543768036889528
-APY----------: 501
+MPL Distributed: 717800
+MPL Issued-----: 658781
+Exchange Rate--: 10709
+Total Supply---: 150000000
+Total Assets---: 160638136
+IssuanceRate---: 2541595835852548
+APY------------: 498
 
 --------------
 Month 19
 --------------
-Exchange Rate: 175578
-Total Supply-: 91490
-Total Assets-: 1606370
-IssuanceRate-: 2662794946403718
-APY----------: 522
+MPL Distributed: 751900
+MPL Issued-----: 689821
+Exchange Rate--: 10755
+Total Supply---: 150000000
+Total Assets---: 161327957
+IssuanceRate---: 2661346812379065
+APY------------: 520
 
 --------------
 Month 20
 --------------
-Exchange Rate: 176332
-Total Supply-: 91490
-Total Assets-: 1613272
-IssuanceRate-: 2788185314063384
-APY----------: 545
+MPL Distributed: 787700
+MPL Issued-----: 722447
+Exchange Rate--: 10803
+Total Supply---: 150000000
+Total Assets---: 162050405
+IssuanceRate---: 2787219891380282
+APY------------: 542
 
 --------------
 Month 21
 --------------
-Exchange Rate: 177122
-Total Supply-: 91490
-Total Assets-: 1620499
-IssuanceRate-: 2920132801968182
-APY----------: 568
+MPL Distributed: 825300
+MPL Issued-----: 756731
+Exchange Rate--: 10853
+Total Supply---: 150000000
+Total Assets---: 162807136
+IssuanceRate---: 2919489186846114
+APY------------: 565
 
 --------------
 Month 22
 --------------
-Exchange Rate: 177950
-Total Supply-: 91490
-Total Assets-: 1628068
-IssuanceRate-: 3058637917361504
-APY----------: 592
-
---------------
-Month 23
---------------
-Exchange Rate: 178816
-Total Supply-: 91490
-Total Assets-: 1635996
-IssuanceRate-: 3203829599228657
-APY----------: 617
+MPL Distributed: 864600
+MPL Issued-----: 792687
+Exchange Rate--: 10906
+Total Supply---: 150000000
+Total Assets---: 163599824
+IssuanceRate---: 3058208840613458
+APY------------: 589
 
