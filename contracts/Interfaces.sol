@@ -3,6 +3,16 @@ pragma solidity ^0.8.7;
 
 interface IBPoolLike {
 
+    function getBalance(address token_) external view returns (uint256 balance_);
+
+    function getDenormalizedWeight(address token_) external view returns (uint256 weight_);
+
+    function getSpotPrice(address tokenIn_, address tokenOut_) external view returns (uint256 price_);
+
+    function getSwapFee() external view returns (uint256 swapFee_);
+
+    function joinswapExternAmountIn(address tokenIn_, uint256 tokenAmountIn_, uint256 minPoolAmountOut_) external;
+
     function swapExactAmountIn(
         address tokenIn_,
         uint256 tokenAmountIn_,
